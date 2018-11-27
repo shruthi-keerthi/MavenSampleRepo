@@ -16,7 +16,7 @@ public class Homepage extends ObjectRepo {
 	}
 
 	public void homepageAssertion() {
-		Assert.assertEquals("Womens, Mens, Kids & Baby Fashion | Tu clothing", driver.getTitle());
+		 Assert.assertEquals("Womens, Mens, Kids & Baby Fashion | Tu clothing", driver.getTitle());
 	}
 
 }
